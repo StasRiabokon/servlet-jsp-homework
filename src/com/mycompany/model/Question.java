@@ -4,14 +4,14 @@ public class Question {
 
     private String body;
 
-    private boolean response;
+    private boolean answer;
 
     public Question() {
     }
 
-    public Question(String body, boolean response) {
+    public Question(String body, boolean answer) {
         this.body = body;
-        this.response = response;
+        this.answer = answer;
     }
 
     public String getBody() {
@@ -22,11 +22,11 @@ public class Question {
         this.body = body;
     }
 
-    public boolean isResponse() {
-        return response;
+    public boolean getAnswer() {
+        return answer;
     }
 
-    public void setResponse(boolean response) {
-        this.response = response;
+    public void setAnswer(boolean answer) {
+        this.answer = answer;
     }
 }
